@@ -1,0 +1,110 @@
+/*CSS for the cool kids*/
+html {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+  font-weight: normal;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  font-size: 36px;
+  font-family: "Space Mono", monospace;
+}
+
+body {
+  background-image: url(./wave.svg);
+  background-color: #7effcf;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.main {
+  border: solid #fff 7px;
+  border-radius: 10px;
+  background-color: #fff;
+  height: 640px;
+  width: 400px;
+  /*box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.4);*/
+}
+.title {
+  font-family: "Rubik", sans-serif;
+  box-shadow: 25px 15px white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 0;
+  font-weight: bold;
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(63, 94, 251);
+  background-color: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 62%
+  );
+}
+
+.row {
+  border: 1px #fff solid;
+  border-radius: 5px;
+  display: flex;
+  flex: 1;
+  height: 16.7%;
+  padding: 1.2px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  background-color: #d6d8d7;
+  padding: 1.1px;
+}
+button:hover {
+  background-color: #e0e1e1;
+}
+
+.input-num {
+  color: black;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.clear {
+  text-align: right;
+}
+
+.math {
+  background-color: #3f5efb;
+}
+
+.math:hover {
+  background-color: #617bfb;
+}
+
+.fourth {
+  width: 25%;
+}
+
+.half {
+  width: 50%;
+}
+
+.three-fourths {
+  width: 75%;
+}
+
+.hundred {
+  width: 100%;
+}
