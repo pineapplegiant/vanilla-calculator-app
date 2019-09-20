@@ -2,9 +2,9 @@
 
 ![My cute calculator](calc-screenhshot.png)
 
-Built with HTML, CSS, Vanilla 🍨 JS, and sprinkles of ❤️
+Built with HTML 💻, CSS, 🍨 Vanilla JS, and sprinkles of ❤️
 
-## Things learned
+## Things learned:
 
 * JS Event listeners 🎧
 * JS Event Delegation 🎤

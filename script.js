@@ -28,7 +28,7 @@ function doOperation() {
     case "-":
       total -= intBuffer;
       break;
-    case "*":
+    case "x":
       total *= intBuffer;
       break;
     default:
