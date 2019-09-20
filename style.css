@@ -10,7 +10,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
-  font-size: 36px;
+  font-size: 32px;
   font-family: "Space Mono", monospace;
 }
 
@@ -29,11 +29,11 @@ body {
 
 .main {
   border: solid #fff 7px;
-  border-radius: 10px;
+  border-radius: 30px;
   background-color: #fff;
-  height: 640px;
-  width: 400px;
-  /*box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.4);*/
+  height: 625px;
+  width: 350px;
+  /*box-shadow: 55px -25px pink;*/
 }
 .title {
   font-family: "Rubik", sans-serif;
@@ -57,13 +57,15 @@ body {
 .row {
   border: 1px #fff solid;
   border-radius: 5px;
+  justify-content: space-between;
   display: flex;
   flex: 1;
-  height: 16.7%;
-  padding: 1.2px;
+  height: 15%;
+  padding: 1.4px;
 }
 
 button {
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   background-color: #d6d8d7;
@@ -71,9 +73,15 @@ button {
 }
 button:hover {
   background-color: #e0e1e1;
+  cursor: pointer;
+}
+button:active {
+  background-color: #cccdcd;
 }
 
-.input-num {
+#input {
+  font-size: 36px;
+  padding: 10px;
   color: black;
   background-color: white;
   display: flex;
@@ -92,9 +100,12 @@ button:hover {
 .math:hover {
   background-color: #617bfb;
 }
+.math:active {
+  background-color: #344dce;
+}
 
 .fourth {
-  width: 25%;
+  width: 24.6%;
 }
 
 .half {
@@ -107,4 +118,14 @@ button:hover {
 
 .hundred {
   width: 100%;
+}
+
+/*Cute lil mediaquery for responsiveness on mobile*/
+@media (max-width: 1000px) {
+  body {
+    background-color: #ffc0cb;
+  }
+  button:hover {
+    background-color: #e0e1e1;
+  }
 }
